@@ -1,0 +1,21 @@
+{
+  "repo": "packworks",
+  "feeds": [
+    {
+      "source": "https://packworks.io/",
+      "feed_url": "https://packworks.io/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://packworks.io/blog/",
+      "feed_url": "https://packworks.io/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

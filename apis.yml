@@ -1,7 +1,25 @@
 aid: packworks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/packworks.png
 name: Packworks
-description: Packworks is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Packworks is a Philippine business-to-business technology company empowering
+  micro-entrepreneurs through connected commerce. Its Sari IQ platform gives sari-sari
+  store owners and other micro-retailers an integrated mobile, web, and chat-based
+  toolkit for inventory management, bookkeeping, sales analytics, credit (utang) tracking,
+  deliveries and collections, loyalty programs, and financial literacy. Backed by
+  Techstars, Packworks operates as an end-user SaaS platform for neighborhood retail
+  and does not currently publish a public developer API, SDK, well-known discovery
+  surface, or integration program.
 url: https://raw.githubusercontent.com/api-evangelist/packworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- E-commerce
+- Philippines
+- Micro-retail
+- SaaS
+- Inventory Management
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://thepackworks.com/
+  url: https://packworks.io/
+- type: Blog
+  url: https://packworks.io/blog/
+- type: BlogRSS
+  url: https://packworks.io/feed/
+- type: About
+  url: https://packworks.io/about-us/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
